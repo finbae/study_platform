@@ -1,0 +1,72 @@
+/* CircleButton styles */
+.CircleButton {
+  background: #428BFF;
+  &:hover {
+    background: #619cfc;
+  }
+  &:active {
+    background: #428BFF;
+  }
+  z-index: 5;
+  cursor: pointer;
+  width: 90px;
+  height: 90px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 50%);
+  color: white;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.125s all ease-in;
+}
+
+.CircleButton.open {
+  background: #fa5858;
+  &:hover {
+    background: #ff8787;
+  }
+  &:active {
+    background: #fa5252;
+  }
+  transform: translate(-50%, 50%) rotate(45deg);
+}
+
+/* InsertFormPositioner styles */
+.InsertFormPositioner {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* InsertForm styles */
+.InsertForm {
+  background:  #e9ecef;
+  padding-left: 32px;
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 72px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Input styles */
+.Input {
+  padding: 12px;
+  border-radius: 7px;
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+}

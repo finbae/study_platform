@@ -1,0 +1,14 @@
+.TodoTemplateBlock {
+  width: 612px;
+  height: 868px;
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 0 auto;
+  margin-top: 86px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

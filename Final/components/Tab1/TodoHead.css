@@ -1,0 +1,25 @@
+/* TodoHeadStyles.css */
+
+/* TodoHeadBlock styles */
+.TodoHeadBlock {
+  .day {
+    margin-top: 4px;
+    color: #343a40;
+    font-size: 20px;
+
+  }
+  padding-top: 40px;
+  padding-left: 35px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #cecece;
+}
+
+/* TasksLeft styles */
+.TasksLeft h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #428BFF;
+}
+

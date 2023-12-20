@@ -1,0 +1,315 @@
+
+
+body {
+  font-family: "helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Combine h1,
+h2,
+h3,
+p,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  color: #16283d;
+}
+
+.Combine em,
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #3e85ef;;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+
+.Combine{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+
+
+section .content .select-day {
+  margin-left: 85px;
+  margin-top: 70px;
+}
+
+section .content .select-day h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+section .content .select-day .monthBtn {
+  width: 730px;
+  text-align: center;
+  margin-top: 40px;
+  height: 60px;
+}f
+
+section .content .select-day .monthBtn .mPrevBtn {
+  display: inline-block;
+  width: 25px;
+}
+
+section .content .select-day .monthBtn .mPrevBtn img {
+  display: inline-block;
+  width: 100%;
+}
+
+section .content .select-day .monthBtn .mPrevBtn:hover {
+  cursor: pointer;
+}
+
+section .content .select-day .monthBtn h3 {
+  display: inline-block;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  color: #73767d;
+  font-size: 24px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 10px;
+  width: 50%;
+}
+
+section .content .select-day .monthBtn .mNextBtn {
+  display: inline-block;
+  width: 25px;
+}
+
+section .content .select-day .monthBtn .mNextBtn img {
+  display: inline-block;
+  width: 100%;
+}
+
+section .content .select-day .monthBtn .mNextBtn:hover {
+  cursor: pointer;
+}
+
+section .content .select-day .calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  width: 730px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #edf1f3;
+}
+
+section .content .select-day .calendar div {
+  display: inline-block;
+}
+
+section .content .select-day .calendar .calendar-con {
+  width: 420px;
+  height: 280px;
+  
+}
+
+section .content .select-day .calendar .calendar-con table {
+  width: 100%;
+}
+
+section .content .select-day .calendar .calendar-con table thead tr th {
+  width: 60px;
+  height: 40px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700;
+  color: #16283d;
+  font-size: 18px;
+  text-align: center;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td {
+  height: 40px;
+  text-align: center;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td p {
+  width: 33px;
+  height: 33px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 300;
+  color: #73767d;
+  line-height: 33px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td p:hover {
+  background-color: #cadeff;
+  border-radius: 2px;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td:first-child p {
+  background-color: #edf1f3;
+  border-radius: 2px;
+  line-height: 33px;
+  cursor: not-allowed;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td:first-child p:hover {
+  color: #73767d;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td:nth-child(n + 7) p {
+  background-color: #edf1f3;
+  line-height: 33px;
+  border-radius: 2px;
+  cursor: not-allowed;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr td:nth-child(n + 7) p:hover {
+  color: #73767d;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr .xday p {
+  background-color: #edf1f3;
+  line-height: 33px;
+  border-radius: 2px;
+  cursor: not-allowed;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr .xday p:hover {
+  background-color: #edf1f3;
+  color: #73767d;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr .pickday.show p {
+  background-color: #3e85ef;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr .Ahalf p {
+  background-color: #ffca64;
+  color: #ffffff;
+  line-height: 33px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+section .content .select-day .calendar .calendar-con table tbody tr .Ahalf p:hover {
+  background-color: #ffca64;
+  color: #ffffff;
+}
+
+section .content .select-day .select-con {
+  display: inline-block;
+  height: 160px;
+  margin-top: 30px;
+  width: 730px;
+}
+
+section .content .select-day .select-con div {
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+section .content .select-day .select-con p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+section .content .select-day .select-con .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40px;
+  margin-top: 20px;
+}
+
+section .content .select-day .select-con .time span {
+  width: 65px;
+  height: 100%;
+  border-radius: 2px;
+  border: 1px solid #edf1f3;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+section .content .select-day .select-con .time .show {
+  background-color: #3e85ef;
+  color: #ffffff;
+}
+
+section .content .select-day .select-con .time .delete {
+  color: #edf1f3;
+  cursor: not-allowed;
+}
+
+section .content .select-day .select-con .emailForm {
+  text-align: center;
+  margin: 30px;
+}
+
+section .content .select-day .select-con .emailForm span {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+section .content .select-day .select-con .emailForm input {
+  border: 0;
+  background-color: #edf1f3;
+  border-radius: 0;
+  width: 380px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+section .content .select-day .select-con .emailForm input:focus {
+  border: 1px solid #d4d1d1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}

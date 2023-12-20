@@ -1,0 +1,36 @@
+.rec{
+  width: 612px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.25), 0 5px 10px rgba(0, 0, 0, 0.22);
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rec button {
+  background: #428BFF;
+  &:hover {
+    background: #619cfc;
+  }
+  &:active {
+    background: #428BFF;
+  }
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font-size: 60px;
+  bottom: 0px;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}

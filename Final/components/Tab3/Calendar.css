@@ -1,0 +1,35 @@
+.react-datepicker__header {
+    margin-left: 20px;
+    background-color: transparent;
+    border: transparent;
+  }
+  .react-datepicker__month {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 260px;
+  }
+  .react-datepicker__day-names {
+    margin-top: 10px;
+  }
+  
+  .react-datepicker__day-name {
+    margin: 6px;
+    font-size: 15px;
+  }
+  .react-datepicker__day {
+    margin: 6px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .react-datepicker {
+  display:inline-flexbox;
+  justify-content:center;
+  margin: 20px;
+  padding: 20px;
+  input {
+    border: none;
+    text-align: center;
+    width: 100%;
+  }
+  } 

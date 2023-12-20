@@ -1,0 +1,159 @@
+.section{
+
+  width:915px;
+  height: auto;
+  margin: 20px;
+
+    position: relative;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 0 auto;
+    margin-top: 86px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.section .content {
+  padding: 10px 50px;
+}
+
+.section .content .consult-con {
+  width: 815px;
+  padding: 20px;
+  cursor: pointer;
+}
+.consult-con{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+
+}
+
+.consult-list {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.consult-list li {
+  display: inline-block;
+  padding: 5px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.consult-list li a {
+  display: inline-block;
+  padding: 10px;
+  height: 26px;
+  width: 75px;
+  text-align: center;
+  line-height: 28px;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #16283d;
+}
+
+.consult-list li a input{
+  display: flex;
+  flex-direction:row;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.consult-list li a:hover {
+  background-color: #cadeff;
+}
+
+.consult-list li a.show {
+  background-color: #3e85ef;
+  color: #ffffff;
+}
+
+.section .content .consult-con .consult-list li:first-child {
+  margin-left: 0;
+}
+
+.section .content .consult-con .consult-list li:nth-child(n + 4) {
+  margin-right: 30px;
+}
+
+.consult-list input {
+  border: 0;
+  background-color: #edf1f3;
+  border-radius: 5px;
+  width: 280px;
+  height: 45px;
+  font-size: 18px;
+}
+
+.section .content .consult-con .consult-list input:focus {
+  border: 1px solid #3e85ef;
+  padding-top: 5px;
+  box-shadow: none;
+  outline: none;
+}
+
+.select-day{
+  margin: 20px;
+  margin-top: 50px;
+}
+.selected-time{
+  margin: 10px;
+  text-align: center;
+}
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time button{
+  background: #428BFF;
+  &:hover {
+    background: #619cfc;
+  }
+  &:active {
+    background: #428BFF;
+  }
+  color: #ffffff;
+  margin:18px ;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailForm{
+  margin: 10px;
+  width: 100%;
+  height: 80px;
+}
+.emailForm input {
+  border: 0;
+  background-color: #edf1f3;
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom:20px;
+  font-size: 18px;
+}
+
+.emailForm input:focus {
+  border: 1px solid #3e85ef;
+  padding-top: 5px;
+  box-shadow: none;
+  outline: none;
+}

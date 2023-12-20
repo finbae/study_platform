@@ -1,0 +1,57 @@
+/* Remove styles */
+.Remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dee2e6;
+  font-size: 30px;
+  cursor: pointer;
+  &:hover {
+    color: #ff4949;
+  }
+  display: none;
+}
+
+/* TodoItemBlock styles */
+.TodoItemBlock {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  &:hover {
+    .Remove {
+      display: initial;
+    }
+  }
+}
+
+/* CheckCircle styles */
+.CheckCircle {
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  border: 5px solid #ced4da;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.CheckCircle.done {
+  border: 5px solid #428BFF;
+  color: #428BFF;
+}
+
+/* Text styles */
+.Text {
+  flex: 1;
+  font-size: 20px;
+  color: #495057;
+}
+
+.Text.done {
+  color: #b6bcc2;
+  text-decoration:line-through;
+}
